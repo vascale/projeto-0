@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecto Cero</title>
+
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Projeto Zero</h1>
@@ -51,6 +58,50 @@
             <li>Sebastian</li>
             <li>Normal</li>
         </ol>
+
+    <h1>Tabela</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preços</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Camiseta Branca</td>
+                <td>2</td>
+                <td>€ 5</td>
+                <td rowspan="2">Sim</td>
+                <!-- rowspan="2" para mesclar no caso 2 casas da coluna -->
+            </tr>
+
+            <tr>
+                <td>Calça Jeans</td>
+                <td>3</td>
+                <td>€ 20</td>
+            </tr>
+
+            <tr>
+                <td>Sapatos</td>
+                <td>4</td>
+                <td>€ 25</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td colspan="2">Total</td>
+            <td colspan="2">€ 50</td>
+            <!-- para mesclar neste caso duas casa na mesma linha -->
+        </tfoot>
+
+
+    </table>
 
 
     <!-- para criar lista direta basta: ul>li*4 vai criar automático 4 linhas-->
