@@ -24,6 +24,7 @@ h1 {
     border-style: solid;
     border-width: 20px;
     border-color: green cyan orange blueviolet;
+    margin: 30px 15px;
 }
 
 span {
@@ -33,4 +34,12 @@ span {
     width: 200px;
     height: 200px;
 
+}
+
+.descricao-produto {
+    background-color: orange;
+}
+
+.promocao {
+    border:  solid green;
 }
