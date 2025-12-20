@@ -1,12 +1,23 @@
+/* remove toda margem padrão do código, evitando resultado inconsistentes entre navegadores, obrigado o desenvolverdor colocar manualmente  -
+Os elementos ficam "colados" uns nos outros*/
+
+* {
+    margin: 0;
+}
+
 h6 {
     background-color: red; color: aliceblue;
 }
 
 p {
     margin: 30px 15px;
+    /* são os espaços entre os itens - textos */
     padding: 20px 9px 19px 3px;
+    /* espaçamento interno por exemplo do texto até a borda */
     background-color: aquamarine;
-    border: 20px solid red;
+    /* cor o fundo */
+    border: 20px solid gray;
+    /* Cor da borda ou medida da borda o contorno */
 }
 
 h1 {
@@ -14,3 +25,4 @@ h1 {
     border-width: 20px;
     border-color: green cyan orange blueviolet;
 }
+
