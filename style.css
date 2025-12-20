@@ -26,3 +26,11 @@ h1 {
     border-color: green cyan orange blueviolet;
 }
 
+span {
+    color: black;
+    background-color: cornflowerblue;
+
+    width: 200px;
+    height: 200px;
+
+}
